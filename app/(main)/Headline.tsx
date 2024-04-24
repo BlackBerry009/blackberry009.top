@@ -80,7 +80,7 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Blackberry，目前在上海，本职是前端，但什么都做的小透明
+          我是 Blackberry，目前在上海，本职是前端，但什么都做的小透明；
           除了工作，还热爱撸铁🏋️、体育竞技🏀、滑雪🏂等
           <br />
           <Text className="font-bold uppercase text-yellow-50">
