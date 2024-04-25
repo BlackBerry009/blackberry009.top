@@ -13,7 +13,6 @@ import { type Post } from '~/sanity/schemas/post'
 
 export function BlogPostCard({ post, views }: { post: Post; views: number }) {
   const { title, slug, mainImage, publishedAt, categories, readingTime } = post
-
   return (
     <Link
       href={`/blog/${slug}`}

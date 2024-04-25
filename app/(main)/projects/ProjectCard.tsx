@@ -16,7 +16,6 @@ import { type Project } from '~/sanity/schemas/project'
 
 export function ProjectCard({ project }: { project: Project }) {
   const { _id, url, icon, name, description } = project
-
   const mouseX = useMotionValue(0)
   const mouseY = useMotionValue(0)
   const radius = useMotionValue(0)

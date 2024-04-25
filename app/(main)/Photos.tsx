@@ -8,7 +8,6 @@ export function Photos({ photos }: { photos: string[] }) {
   const [width, setWidth] = React.useState(0)
   const [isCompact, setIsCompact] = React.useState(false)
   const expandedWidth = React.useMemo(() => width * 1.38, [width])
-
   React.useEffect(() => {
     const handleResize = () => {
       // 640px is the breakpoint for md

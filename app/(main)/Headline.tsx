@@ -26,7 +26,7 @@ function Designer() {
         <span className="absolute -bottom-[3.5px] -left-[3.5px] size-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
         <span className="absolute -right-[3.5px] -top-[3.5px] size-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
       </span>
-      设计师
+     美食家
     </span>
   )
 }
@@ -44,7 +44,7 @@ function Founder() {
   return (
     <span className="group inline-flex items-center">
       <UserSecurityIcon className="mr-1 inline-flex group-hover:fill-zinc-600/20 dark:group-hover:fill-zinc-200/20" />
-      <span>创始人</span>
+      <span>运动健儿</span>
     </span>
   )
 }
@@ -80,11 +80,10 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Blackberry，目前在上海，本职是前端，但什么都做的小透明；
-          除了工作，还热爱撸铁🏋️、体育竞技🏀、滑雪🏂等
-          <br />
-          <Text className="font-bold uppercase text-yellow-50">
-            work life balance!
+          我是 Blackberry，目前在上海，本职是前端，但其实什么都在做的工程狮🦁️。<br />
+          工作只是生活中的一部分，热衷于摄影📷、撸铁🏋️、体育竞技🏀、滑雪🏂等 <br />
+          <Text className="font-bold uppercase text-red-500">
+            保持<span className='line-through text-yellow-500'>热爱</span>神经 ，奔赴山海
           </Text>
         </Balancer>
       </motion.p>
